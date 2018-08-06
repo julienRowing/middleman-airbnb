@@ -1,0 +1,29 @@
+# data/flats.yml
+thompouillevet:
+  name: "Thomas' home"
+  description: "Charming room in Barcelona"
+  city_name: "Barcelona, Spain"
+  city_slug: "barcelona"
+  wifi: true
+  rating: 5
+julienRowing:
+  name: "Julien's home"
+  description: Flat view Opera view in Copenhagen
+  city_name: "Copenhagen, Denmark"
+  city_slug: "copenhagen"
+  wifi: true
+  rating: 5
+adrienblue:
+  name: "Adrien's home"
+  description: "Charming flat in London central"
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+AntoineCoconut:
+  name: "Antoine's home"
+  description: Roof top flat in Rio
+  city_name: "Rio, Brazil"
+  city_slug: "rio"
+  wifi: true
+  rating: 5
