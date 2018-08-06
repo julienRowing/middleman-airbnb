@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-1d6c16f3.css" rel="stylesheet" />
+    <link href="stylesheets/application-93398101.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
@@ -64,36 +64,59 @@
   </div>
 </div>
    <!-- inject layouts/_banner.html.erb -->
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-  <div class="card-category">Popular</div>
-  <div class="card-description">
-    <h2>Le Wagon Shanghai</h2>
-    <p>Very cool city, the best</p>
+
+
+<!-- source/index.html.erb -->
+
+<div class="container" id="home-flats">
+  <h2 class="text-center">Recent flats</h2>
+  <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/barcelona');">
+          <div class="card-category">Barcelona, Spain</div>
+          <div class="card-description">
+            <h3>Thomas' home</h3>
+            <p>Charming room in Barcelona</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/thompouillevet" class="card-user" alt="Thompouillevet" />
+          <a href="flats/thompouillevet.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/copenhagen');">
+          <div class="card-category">Copenhagen, Denmark</div>
+          <div class="card-description">
+            <h3>Julien's home</h3>
+            <p>Flat view Opera view in Copenhagen</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/julienRowing" class="card-user" alt="Julienrowing" />
+          <a href="flats/julienRowing.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/london');">
+          <div class="card-category">London, UK</div>
+          <div class="card-description">
+            <h3>Adrien's home</h3>
+            <p>Charming flat in London central</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/adrienblue" class="card-user" alt="Adrienblue" />
+          <a href="flats/adrienblue.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/rio');">
+          <div class="card-category">Rio, Brazil</div>
+          <div class="card-description">
+            <h3>Antoine's home</h3>
+            <p>Roof top flat in Rio</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/AntoineCoconut" class="card-user" alt="Antoinecoconut" />
+          <a href="flats/AntoineCoconut.html" class="card-link"></a>
+        </div>
+      </div>
   </div>
-  <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-  <a class="card-link" href="#" ></a>
 </div>
-   <!-- inject layouts/_card.html.erb -->
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-  <div class="card-category">Popular</div>
-  <div class="card-description">
-    <h2>Le Wagon Shanghai</h2>
-    <p>Very cool city, the best</p>
-  </div>
-  <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-  <a class="card-link" href="#" ></a>
-</div>
-   <!-- inject layouts/_card.html.erb -->
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-  <div class="card-category">Popular</div>
-  <div class="card-description">
-    <h2>Le Wagon Shanghai</h2>
-    <p>Very cool city, the best</p>
-  </div>
-  <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-  <a class="card-link" href="#" ></a>
-</div>
-   <!-- inject layouts/_card.html.erb -->
                       <!--  Page content is injected here -->
     <div class="footer">
   <div class="footer-links">
